@@ -1,0 +1,18 @@
+<div class="example-container" style="border-style: groove; width: 80%; margin-left: 10%; margin-top: 5%;">
+  <div style="padding-left: 40%; padding-top: 5%; ">
+    <mat-form-field appearance="fill">
+      <mat-label>User</mat-label>
+      <input [(ngModel)]="usuario" matInput>
+    </mat-form-field>
+    <br>
+  
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input [(ngModel)]="password" matInput>
+    </mat-form-field>
+     </div>
+    
+     <br>
+     <button mat-button  style="background: rgb(18, 214, 100); width: 12%; margin-left: 41.57%; margin-bottom: 5%;" (click)="validarUsuario()" >Ingresar</button>
+  
+  </div>

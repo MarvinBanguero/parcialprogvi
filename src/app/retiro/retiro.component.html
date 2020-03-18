@@ -1,0 +1,8 @@
+<mat-form-field>
+    <mat-label>Ingrese monto a retirar</mat-label>
+    <input matInput [(ngModel)]="monto"  #message>
+  </mat-form-field>
+  
+  <button mat-stroked-button (click)="retirar()">Retirar</button>
+  <br>
+  <button style="width: 25%;" (click)="back()">Atras</button>
